@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+
+
+    <EditText
+        android:id="@+id/Insertpicture"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginTop="5dp"
+        android:hint="Enter Image URL" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Title"
+        android:layout_marginTop="5dp"
+        android:id="@+id/InsertTitle"/>
+
+    <EditText
+        android:id="@+id/InsertMessage"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:hint="Enter Message" />
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" >
+
+
+        <Button
+            android:id="@+id/AddButton"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:background="#19691D"
+            android:text="Add"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/CancelButton"
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="#F44336"
+            android:text="Cancel"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+    </GridLayout>
+
+
+</LinearLayout>
